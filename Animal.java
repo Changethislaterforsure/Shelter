@@ -6,7 +6,7 @@ public abstract class Animal {
         this.name = name;
     }
 
-    // package-private setter so only the shelter can set this
+    // package private setter so only the shelter can set this
     void setOrder(int order) {
         this.order = order;
     }
